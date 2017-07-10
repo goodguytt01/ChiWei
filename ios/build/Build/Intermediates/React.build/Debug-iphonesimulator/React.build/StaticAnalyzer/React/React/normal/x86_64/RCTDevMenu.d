@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Modules/RCTDevMenu.m \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTKeyCommands.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Modules/RCTSourceCode.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTWebSocketProxy.h \
+  /Users/tiantian/work/AwesomeProject/node_modules/react-native/React/Base/RCTWebSocketProxyDelegate.h

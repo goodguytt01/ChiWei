@@ -1,0 +1,21 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^2.5.0",
+    "react": "15.1.0",
+    "react-native": "0.28.0",
+    "react-native-button": "^1.6.0",
+    "react-native-file-upload": "^1.0.4",
+    "react-native-image-picker": "^0.20.2",
+    "react-native-list-popover": "^1.0.5",
+    "react-native-navbar": "^1.5.0",
+    "react-native-navigator": "^0.4.2",
+    "react-native-picker": "^3.0.4",
+    "react-native-value-store": "^0.1.0"
+  }
+}

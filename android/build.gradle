@@ -1,0 +1,56 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+    }
+}
+
+
+signingConfigs {
+    debug {
+
+    }
+    release {
+        storeFile file("chiwei.keystore")
+        storePassword "123456"
+        keyAlias "chiwei"
+        keyPassword "123456"
+    }
+}
+
+buildTypes {
+    debug {
+        minifyEnabled false
+        zipAlignEnabled false
+        shrinkResources false
+        signingConfig signingConfigs.debug
+    }
+
+    release {
+        minifyEnabled true//混淆编译
+        zipAlignEnabled true
+        //移除无用的资源文件
+        shrinkResources true
+        signingConfig signingConfigs.release
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+}
+
